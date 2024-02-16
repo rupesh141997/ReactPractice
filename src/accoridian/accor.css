@@ -1,0 +1,37 @@
+.main{
+
+     padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:black;
+
+}
+.queans{
+            background-color: rgba(55, 170, 170, 0.164);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+            border: 0.1rem solid  rgba(64, 174, 182, 0.11);
+            border-radius: 20px;
+}
+
+.queans span{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green; 
+    border-radius: 50%;
+    cursor: pointer;
+}
+.queans h2{
+    font-family:  Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
